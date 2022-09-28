@@ -32,7 +32,7 @@ st.sidebar.success("Select a page above")
 # SUBHEADER
 #st.subheader('Cancer')
 
-model = tf.keras.models.load_model("D:\Projects\cdac\daata\ResNet50_Best_new.h5")
+model = tf.keras.models.load_model("\daata\ResNet50_Best_new.h5")
 ### load file
 uploaded_file = st.file_uploader("Choose a image file", type=['jpg','png','jpeg'])
 
